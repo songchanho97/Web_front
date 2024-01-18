@@ -5,28 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>report</title>
     <link rel="stylesheet" href="report.css">
-    <style>
-
-    </style>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div>
         <h1>3월 보고서</h1>
     </div>
-    <div>
+    <div id="userInfo">
         <img id="userImg" src="../img/example.png">
-        <div id="userInfo">
-            <p>이름: 송찬호</p>
-            <p>회사명: 흥우</p>
-            <p>직종명: 개발</p>
-        </div>
+        <p >이름: 송찬호<br>기간: 2024.12.01~2024.12.31<br>회사명: 흥우산업<br>직종명: 개발자</p>
     </div>
     <div>
         <div>
             <table>
-                <caption>최근 일주일 심리검사</caption>
                 <tr>
+                    
                     <td>차트1</td>
                     <td>차트2</td>
                     <td>차트3</td>
@@ -36,7 +29,6 @@
         </div>
         <div>
             <table>
-                <caption>심리 컨디션 변동추이</caption>
                 <tr>
                     <td>큰차트1</td>
                 </tr>
@@ -45,7 +37,7 @@
     </div>
    
     <div style="text-align: center;">
-        <button type="button" th:id="convert-pdf-btn">PDF로 변환</button>
+        <button type="button" id="convert-pdf-btn">PDF로 변환</button>
     </div>
 
 </body>
