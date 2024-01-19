@@ -16,7 +16,6 @@ p{
     font-size:16px;
     text-align:justify;
     line-height:200%
-
 }
 
 #userInfo{
@@ -28,7 +27,33 @@ p{
 }
 
 #userImg{
-    width: 100px; /* 이미지의 너비 설정 */
-    height: auto; /* 이미지의 높이를 자동으로 조절 */
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 50%;
+}
+
+#significant{
+    border-width:2px;
+    border-style:solid;
+    background-color: lightgrey;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.image-container {
+    border: 2px solid black; /* Adjust color and thickness as needed */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#memo{
+    text-align: center;
+}
+
+.container{
+    border: 2px solid black; 
+    margin-top: 0;
 }
